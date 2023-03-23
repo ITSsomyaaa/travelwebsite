@@ -1,0 +1,275 @@
+body{
+    background-image:url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    margin:0;
+    padding:0;
+    font-family: 'Fredoka One', cursive;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+     /* font-family: 'Anton', sans-serif; */
+    font-family: 'Fredoka One', cursive;
+    margin-top: 0rem;
+    position: fixed;
+    top:0rem;
+    border:0.1rem  solid black;
+    background-color: black;
+    margin-left:4.5rem;
+}
+.logo{
+    float: left;
+    font-size: 2.5rem;
+    width:5rem;
+    color: red;
+    margin-left: 0.2rem;
+    margin-top: 0rem;
+}
+.menu nav ul{display: flex;
+    justify-content: center;
+  margin-left: 11.1rem;
+    /* margin-right:0.1rem; */
+    /* padding: 0.1rem; */
+    /* width:50rem; */
+    color: bisque;
+}
+.menu li{
+    list-style:none;
+   float:left;
+    font-size:1.2rem;
+     margin-right:1.2rem;margin-left: 1.1rem;
+     cursor: pointer;
+}
+.subscribe button{
+    float:right;
+    background-color: red;
+    font-weight: bolder;
+    margin-top: 0.8rem;
+    padding: 0.3rem;
+    width:9,5rem;
+    margin-right: 1rem;
+    border:0.1rem solid rgb(255, 30, 0);
+    border-radius: 1rem;
+    color: beige;
+    cursor: pointer;
+    font-size: 1rem;
+}
+h1{
+    margin:13rem 1rem 1rem;
+    color: bisque;
+    font-family: 'Fredoka One', cursive;
+}
+h3{
+    font-size: 1.4rem;
+    margin-left:1.5rem ; color: bisque;
+    font-family: 'Fredoka One', cursive;
+}
+
+h2{
+    font-size:2.5rem ;
+    margin-left:1.5rem ;
+    color: bisque;
+    font-family: 'Fredoka One', cursive;
+}
+.mail{
+    margin-left: 1.5rem;
+    border:0.2rem solid rgb(253, 19, 19);
+    border-radius: 1rem;
+    width:25rem;
+    padding: 0.1rem;
+    background-color: azure;
+    font-size: 1rem;
+}
+button{
+    background-color: rgb(240, 11, 11);
+}
+.emails{
+    width:19rem;
+    border:0.1rem solid white;
+    border-radius: 1rem;
+}
+.lets{
+    border:0.1rem solid rgb(255, 0, 0);
+    border-radius: 1rem; 
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+
+}
+.name{
+    color: red;
+}
+.lio{
+    color: bisque;
+}
+
+   
+  
+.big{
+    font-size:3rem;
+    /* justify-content: center; */
+}
+.small{
+    font-size:2.5rem;
+    /* justify-content: center; */
+}
+.about-text p{
+    font-size: 1.5rem;
+    /* justify-content: center; */
+    /* text-align: end;
+     */
+     margin-left: auto;
+     margin-right: auto;
+}
+button.talk{
+    font-size:2rem ;
+    color: azure;
+    border:0.1rem solid white;
+    border-radius: 1rem; 
+    cursor: pointer;
+}
+.main2 img{
+    width:30rem;
+    height:40rem;
+    margin-top:20rem ;
+    
+    margin-left: 0.5rem;
+    opacity: 1px;
+
+    
+}
+.about{
+    color:beige;
+   /* margin-top:20rem ; */
+   /* margin-right: 9.5rem; */
+   /* margin-left: 24.5rem; */
+   /* text-align: center; */
+
+}
+.about-text{
+    width:30rem;
+    margin-left: 0.9rem;
+    margin-top:25rem ;
+}
+.main2{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left:4.5rem;
+font-family: 'Fredoka One', cursive;
+}
+.content p{
+    color:white;
+    width:20rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    /* padding: 2px 5px; */
+    /* position: relative; */
+}
+.new1{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20rem; */
+    font-family: 'Fredoka One', cursive;
+}
+.read{
+    text-align: center;
+    color: white; 
+    border-radius: 1rem; 
+    margin-left: 8rem;
+    margin-right: auto;
+}.service h5{
+    color:antiquewhite;
+    font-size: 3rem;
+    text-align: center;
+    /* margin-top: 20rem; */
+}.content{
+    border:0.4rem solid rgb(73, 72, 72);
+    border-radius: 0.5rem;
+    background-color: rgb(14, 3, 3);
+}
+.content button{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+    .content h1{
+        text-align: center;
+    }
+    .service{
+        margin-top:20rem;
+        font-family: 'Fredoka One', cursive;
+     }.beautiful{
+        font-size:2.5rem;
+    color: beige;margin-left: 17.5rem;
+margin-top:20rem}
+        .beautiful button{ border:0.1rem solid rgb(245, 5, 5);
+            border-radius: 1rem; 
+            background-color: red;
+            display: block;
+            margin-left: 11rem;
+            padding: 0.5rem;
+            /* margin-left: 20rem; */
+            color: beige;
+        /* width:2rem; */
+    font-size: 3rem; 
+cursor: pointer;}
+            .middle{
+                font-weight: bolder;
+                color:white;margin-left: 28rem;
+                font-size:2.5rem; margin-top:20rem;
+                
+
+            }.last{ color:white;
+                margin-left:17em;
+                font-size:1.5rem;
+                width:25rem;
+                position: relative;
+
+            }
+     .content i{
+                /* color: blanchedalmond; */
+                font-size: 4rem;
+                display: block;
+                /* margin: 25px 0px; */
+                margin-top: 2rem;
+                text-align: center;
+                color: red;
+            }
+            .linked{
+                color: red;
+            }.icons{
+            font-size: 3rem;
+            display: block;
+            margin: 25px 0px;
+            text-align: center;
+            color: red;
+            padding: 0.5rem;
+            margin-left:0.1rem ;
+            justify-content: space-around;
+            margin-bottom: 0%;
+            }
+            .content h1{
+                margin-top: 2rem;
+            }
+            .icons i{
+                
+                justify-content: space-between;
+                margin-bottom: 0;
+            }
+            .update{
+                float:right;
+                font-size: 1rem;
+                color: rgb(102, 95, 95);
+                top: 4rem;
+                
+            }
+            .imge img {
+                float:right;
+                margin-top: 1rem;
+                margin-left: 15rem;
+                width: 20rem;
+                height:12rem;
+                margin-right: 5rem;
+            }
